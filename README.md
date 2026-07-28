@@ -1,6 +1,6 @@
 # Lacquer Ledger website
 
-Public marketing, support, and privacy pages for the Lacquer Ledger iPhone app.
+Public marketing, support, and privacy pages for the Lacquer Ledger iPhone and Android app.
 
 - `index.html` — product page
 - `support.html` — customer support
