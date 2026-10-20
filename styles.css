@@ -135,3 +135,22 @@ details p { color: var(--taupe); }
   .footer-inner { flex-direction: column; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Guide readability, keyboard focus and compact-screen navigation. */
+:root { --taupe: #65585e; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--berry); outline-offset: 5px; }
+.nav-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.footer-links { flex-wrap: wrap; }
+.footer-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.guide { overflow: visible; }
+.guide h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.08; overflow-wrap: break-word; }
+.guide h2 { line-height: 1.2; }
+.guide-intro { font-size: 1.2rem; }
+.guide li { margin-bottom: .75rem; }
+.guide-card { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.guide-card h2 { margin-top: 0; }
+.guide-cta { padding: 28px; background: var(--mint); border-radius: 18px; margin-top: 48px; }
+.editorial { margin-top: 36px; font-size: .9rem; }
+.guide nav { margin-bottom: 28px; }
+@media (max-width: 560px) { .brand { gap: 7px; font-size: 15px; } .brand img { width: 30px; height: 30px; } .nav { gap: 10px; } .nav-links { gap: 9px; } .nav-links a:first-child { display: inline-flex; } .nav-links a[href="#features"] { display: none; } .nav-links a { font-size: 12px; } }
+@media (max-width: 560px) { .nav { flex-wrap: wrap; padding: 8px 0; } .nav-links { width: 100%; justify-content: space-between; } }

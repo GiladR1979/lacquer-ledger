@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /lacquer-ledger/
+Sitemap: https://giladr1979.github.io/lacquer-ledger/sitemap.xml
