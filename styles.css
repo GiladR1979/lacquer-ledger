@@ -26,7 +26,7 @@ body {
 }
 a { color: var(--berry); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
 a:hover { color: var(--plum); }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 .skip-link { position: absolute; left: -9999px; }
 .skip-link:focus { left: 16px; top: 16px; z-index: 20; padding: 10px 14px; background: var(--card); border-radius: 10px; }
 .site-header {
