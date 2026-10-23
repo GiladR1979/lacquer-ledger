@@ -154,3 +154,12 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--berry); outlin
 .guide nav { margin-bottom: 28px; }
 @media (max-width: 560px) { .brand { gap: 7px; font-size: 15px; } .brand img { width: 30px; height: 30px; } .nav { gap: 10px; } .nav-links { gap: 9px; } .nav-links a:first-child { display: inline-flex; } .nav-links a[href="#features"] { display: none; } .nav-links a { font-size: 12px; } }
 @media (max-width: 560px) { .nav { flex-wrap: wrap; padding: 8px 0; } .nav-links { width: 100%; justify-content: space-between; } }
+
+/* Inventory worksheet tables stay readable on narrow screens and paper. */
+.table-wrap { overflow-x: auto; margin: 1.5rem 0; }
+.table-wrap:focus-visible { outline: 3px solid var(--berry); outline-offset: 4px; }
+.guide table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.guide caption { text-align: left; font-weight: 800; padding-bottom: .7rem; }
+.guide th, .guide td { text-align: left; vertical-align: top; padding: .75rem; border: 1px solid var(--line); }
+.guide th { background: var(--mint); }
+@media print { .site-header, .site-footer, .skip-link, .guide-cta, .guide .button { display: none; } body { background: white; color: black; } .guide { width: 100%; padding: 0; } .guide h1 { font-size: 2rem; } .guide h2 { font-size: 1.4rem; } .table-wrap { overflow: visible; } tr { break-inside: avoid; } }

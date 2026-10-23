@@ -1,0 +1,47 @@
+LACQUER LEDGER — NAIL POLISH INVENTORY WORKSHEET
+https://giladr1979.github.io/lacquer-ledger/guides/polish-inventory.html#inventory-worksheet
+Standalone manual text worksheet. NOT an app import file or native CSV export format.
+Version 1.0 does not import CSV. App exports exclude photos and are not complete restore backups.
+
+FICTIONAL EXAMPLE — invented brand and shades, not a person's collection
+Brand: Example Polish
+Shade: Rose Window
+Status: Owned
+Finish / color family: Shimmer / Pink
+Recorded wears: 2
+Last recorded wear: 2026-10-20
+Recognition note: Label photo in personal photo folder.
+Collection note: Check before buying an exact duplicate.
+
+Brand: Example Polish
+Shade: Night Orchard
+Status: Wishlist
+Finish / color family:
+Recorded wears:
+Last recorded wear:
+Collection note: Possible purchase; not on the shelf yet.
+
+Brand: Example Polish
+Shade: Pale Lantern
+Status: Owned
+Finish / color family:
+Recorded wears: 0
+Last recorded wear:
+Collection note: Zero means none recorded here; earlier wears may not be logged.
+
+BLANK RECORD — copy this block for each bottle
+Brand (consistent spelling):
+Shade (as printed on label):
+Status (Owned / Wishlist):
+Finish (optional):
+Color family (optional):
+Photo location / recognition note (optional):
+Recorded wears since starting this list (optional):
+Last recorded wear date (optional):
+Notes / intentional spare bottle (optional):
+Last checked on:
+
+Before shopping: search brand + shade on the owned shelf, then check the wishlist.
+Different shade names do not establish different colors; compare your own photos and notes.
+After receiving a purchase: move its status to Owned.
+Keep original photos separately. Do not treat wear counts as remaining volume or product condition.
