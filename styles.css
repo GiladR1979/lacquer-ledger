@@ -163,3 +163,10 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--berry); outlin
 .guide th, .guide td { text-align: left; vertical-align: top; padding: .75rem; border: 1px solid var(--line); }
 .guide th { background: var(--mint); }
 @media print { .site-header, .site-footer, .skip-link, .guide-cta, .guide .button { display: none; } body { background: white; color: black; } .guide { width: 100%; padding: 0; } .guide h1 { font-size: 2rem; } .guide h2 { font-size: 1.4rem; } .table-wrap { overflow: visible; } tr { break-inside: avoid; } }
+
+/* Show the real shelf at the first purchase decision. */
+.hero-preview { margin: 0; text-align: center; }
+.hero-preview img { width: min(100%, 292px); height: auto; margin: 0 auto; border: 7px solid var(--ink); border-radius: 34px; box-shadow: 0 24px 64px rgba(36,28,32,.17); }
+.hero-preview figcaption { max-width: 310px; margin: 18px auto 0; color: var(--taupe); font-size: 14px; }
+.fit-note { margin-top: 28px; max-width: 740px; color: var(--taupe); }
+@media (max-width: 560px) { .hero-preview img { width: min(72%, 260px); } }
